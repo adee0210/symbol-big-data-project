@@ -1,0 +1,67 @@
+2025-10-02 15:26:28,356 - MainProcess - INFO - Symbol Flow Main App - Symbol Flow Main App initialized
+2025-10-02 15:26:28,356 - MainProcess - INFO - Symbol Flow Main App - ============================================================
+2025-10-02 15:26:28,356 - MainProcess - INFO - Symbol Flow Main App - STARTING SYMBOL FLOW BIG DATA PIPELINE
+2025-10-02 15:26:28,356 - MainProcess - INFO - Symbol Flow Main App - ============================================================
+2025-10-02 15:26:28,356 - MainProcess - INFO - Load depth-trade data to MongoDB - DepthTradeBinanceLoad initialized successfully
+2025-10-02 15:26:28,356 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Successfully retrieved CMC configurations
+2025-10-02 15:26:28,356 - MainProcess - INFO - Symbol Flow Main App - System started at: 2025-10-02 15:26:28
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App - Connecting to Binance WebSocket streams...
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App - Starting CoinMarketCap data extraction...
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App - Data will be saved to MongoDB:
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App -    - Trade data → clean_trade_collection
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App -    - Depth data (filtered) → clean_depth_collection
+2025-10-02 15:26:28,357 - MainProcess - INFO - Symbol Flow Main App -    - CoinMarketCap data → clean_cmc_collection
+2025-10-02 15:26:28,357 - MainProcess - WARNING - TeleUtils - Telegram bot not configured
+2025-10-02 15:26:28,357 - MainProcess - INFO - Load depth-trade data to MongoDB - Starting parallel loading of trade and depth data...
+2025-10-02 15:26:28,357 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Running extract CMC ....
+2025-10-02 15:26:28,358 - MainProcess - INFO - Load depth-trade data to MongoDB - Starting trade data loading...
+2025-10-02 15:26:28,358 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Sending API request...
+2025-10-02 15:26:28,358 - MainProcess - INFO - Extract depth - trade from top 100 coin in Binance - Start extract 100 symbol trade ... 
+2025-10-02 15:26:28,358 - MainProcess - INFO - Extract depth - trade from top 100 coin in Binance - Connect to trade binance websocket
+2025-10-02 15:26:28,369 - MainProcess - INFO - Load depth-trade data to MongoDB - Starting depth data loading to clean collection...
+2025-10-02 15:26:28,369 - MainProcess - INFO - Extract depth - trade from top 100 coin in Binance - Start extract 100 symbol depth ... 
+2025-10-02 15:26:28,369 - MainProcess - INFO - Extract depth - trade from top 100 coin in Binance - Connect to depth binance websocket
+2025-10-02 15:26:28,938 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Successfully retrieved the data.
+2025-10-02 15:26:28,938 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Start transform cmc data
+2025-10-02 15:26:28,939 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Successfully to transform 100 symbol data
+2025-10-02 15:26:28,939 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Start load cmc transform data ...
+2025-10-02 15:26:28,939 - MainProcess - ERROR - Extract top 100 symbol data from CoinMarketCap - Error loading data: Cannot use MongoClient after close
+2025-10-02 15:26:28,939 - MainProcess - INFO - Extract top 100 symbol data from CoinMarketCap - Wait for 260 second to update new data
+2025-10-02 15:26:33,395 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 228/228 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:33,418 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 628/628 trade records to clean collection (batch size: 5000)
+2025-10-02 15:26:38,379 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 253/253 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:38,446 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 653/653 trade records to clean collection (batch size: 5000)
+2025-10-02 15:26:43,378 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 243/243 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:43,461 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 541/541 trade records to clean collection (batch size: 5000)
+2025-10-02 15:26:48,381 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 291/291 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:48,472 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 1392/1392 trade records to clean collection (batch size: 5000)
+2025-10-02 15:26:53,385 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 281/281 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:53,472 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 771/771 trade records to clean collection (batch size: 5000)
+2025-10-02 15:26:58,406 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 229/229 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:26:58,538 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 491/491 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:03,436 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 271/271 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:03,583 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 1610/1610 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:08,436 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 251/251 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:08,580 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 513/513 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:13,487 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 306/306 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:13,591 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 1087/1087 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:18,505 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 259/259 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:18,605 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 437/437 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:23,506 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 229/229 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:23,610 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 523/523 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:28,547 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 223/223 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:28,670 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 539/539 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:33,566 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 276/276 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:33,714 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 2300/2300 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:38,552 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 254/254 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:38,731 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 763/763 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:43,553 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 241/241 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:43,797 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 678/678 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:48,558 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 228/228 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:48,897 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 621/621 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:53,578 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 242/242 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:53,902 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 1638/1638 trade records to clean collection (batch size: 5000)
+2025-10-02 15:27:58,603 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 292/292 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:27:58,941 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 2038/2038 trade records to clean collection (batch size: 5000)
+2025-10-02 15:28:03,621 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 276/276 filtered depth records to clean collection (batch size: 5000)
+2025-10-02 15:28:03,957 - MainProcess - INFO - Load depth-trade data to MongoDB - Inserted 544/544 trade records to clean collection (batch size: 5000)

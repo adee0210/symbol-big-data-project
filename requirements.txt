@@ -1,0 +1,9 @@
+pymongo
+requests
+python-dotenv
+schedule
+numpy
+pandas
+httpx
+aiofiles
+websockets
