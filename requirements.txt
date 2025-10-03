@@ -7,3 +7,7 @@ pandas
 httpx
 aiofiles
 websockets
+confluent-kafka
+pyspark
+apache-airflow
+schedule
